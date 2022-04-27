@@ -7,6 +7,12 @@ To face these issues, we model the detected objects with 3D bounding boxes, and 
 %
 In addition, in order to keep the map curated, the non-detection of objects in the areas where they should appear is also considered, proposing a mechanism that removes them from the map once there is evidence that they have been moved (\ie multiple non-detections occur). To validate our proposal, a number of experiments have been carried out using the Robot@VirtualHome ecosystem, comparing its performance with a state-of-the-art alternative. The results report a superior performance of LTC-Mapping when modeling both geometric and semantic information of objects, and also support its online execution.
 
+## Example of a Semantic Map Built by LTC-Mapping
+Result obtained in the [Robot@VirtualHome](https://github.com/DavidFernandezChaves/RobotAtVirtualHome) ecosystem:
+<div align="center">
+  <img src="https://github.com/MAPIRlab/LTC-Mapping-Server/blob/master/Textures/example_semantic_mapping.png?raw=true"/>
+</div>
+
 ## Requeriments
 - [LTC-Mapping - Server](https://github.com/MAPIRlab/LTC-Mapping-Server)
 - [LTC-Mapping - Client](https://github.com/MAPIRlab/LTC-Mapping-Client)
