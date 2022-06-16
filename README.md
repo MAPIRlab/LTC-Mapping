@@ -1,6 +1,12 @@
 # LTC-Mapping
 
-LTC-Mapping is a method for building object-oriented semantic maps that remain consistent in the long-term operation of mobile robots. LTC-Mapping prevents duplicate instances of objects in the semantic map, maintaining just one instance for each real object as well as is able to adapt to changes in the scene (e.g. objects that have been moved), keeping the map up-to-date with the real-world.
+LTC-Mapping is a method for building object-oriented semantic maps that remain consistent in the long-term operation of mobile robots. LTC-Mapping prevents duplicate instances of objects in the semantic map, maintaining just one instance for each real object as well as is able to adapt to changes in the scene (e.g. objects that have been moved), keeping the map up-to-date with the real-world. 
+
+An example of a semantic map built from a house of the [Robot@VirtualHome](https://github.com/DavidFernandezChaves/RobotAtVirtualHome) ecosystem:
+
+<div align="center">
+  <img src="https://github.com/MAPIRlab/LTC-Mapping-Server/blob/master/Textures/example_semantic_mapping.png?raw=true"/>
+</div>
 
 For further details, please refer to the following manuscript:
 
@@ -29,11 +35,4 @@ The repository of the client version can be found in [LTC-Mapping - Client](http
   - [Robotic Operating System (ROS)](https://www.ros.org/). Our scripts are released as ROS nodes.
   - [RosBridge](http://wiki.ros.org/rosbridge_suite). It is necessary in order to establish the communication between ROS (client) and Unity 3D (server).
   - [Detectron2 CNN](https://github.com/DavidFernandezChaves/Detectron2_ros) (Replaceable). Our method uses Detectron2 for object detection. Yet, the object detection algorithm can be easily replaced by another one.
-
-## Example of a Semantic Map Built by LTC-Mapping
-Result obtained in the [Robot@VirtualHome](https://github.com/DavidFernandezChaves/RobotAtVirtualHome) ecosystem:
-<div align="center">
-  <img src="https://github.com/MAPIRlab/LTC-Mapping-Server/blob/master/Textures/example_semantic_mapping.png?raw=true"/>
-</div>
-
 
