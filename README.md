@@ -25,7 +25,7 @@ If you use LTC-Mapping in an academic work, please cite:
 
 ## Requeriments
 
-LTC-Mapping is implemented following a distributed architecture. On the one hand, the client version have to be installed in the robots, which are in charge of the data acquisition. On the other hand, the server version should be installed in the server, which is in charge of the building and maintenance of the semantic map. A detailed description of the requeriments of each version is included in their respective repositories.
+LTC-Mapping is implemented following a distributed architecture. On the one hand, the client version has to be installed in the robots, which are in charge of the data acquisition. On the other hand, the server version must be installed in the server, which is in charge of the building and maintenance of the semantic map. A detailed description of the requeriments of each version is included in their respective repositories.
 
 ### LTC-Mapping - Server
 The repository of the server version can be found in [LTC-Mapping - Server](https://github.com/MAPIRlab/LTC-Mapping-Server). It requires Unity 3D version 2020.3.18f1.
